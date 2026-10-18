@@ -30,7 +30,7 @@ cd hacktoberfest
 
 ### 2. Add your API key
 
-Create a `.env` in the project root and copy `.env.example` to it. 
+Create a `.env` file in the project root and copy `.env.example` to it. 
 On Windows PowerShell:
 
 ```powershell
