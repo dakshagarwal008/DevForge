@@ -2,7 +2,7 @@
 
 DevForge helps developers turn an interest into a project they can build. Explore two ways to get started: ask the AI Project Agent for ideas, or use the Project Finder to discover real open-source repositories related to your goals.
 
-## What you can do
+## What you can 
 
 - **Get project ideas:** Choose a category, programming language, experience level, and weekly time commitment. The AI Agent suggests six projects, each with a short description and an expandable starter folder structure. Generate another set whenever you want.
 - **Find real projects:** Use the Project Finder to look for public GitHub repositories that match your category and preferences. Repository links come from GitHub's API.
