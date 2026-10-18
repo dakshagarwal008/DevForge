@@ -254,10 +254,10 @@ class AppHandler(BaseHTTPRequestHandler):
         except OSError:
             self.send_error(404)
 
-
 if __name__ == "__main__":
     load_dotenv()
     port = int(os.environ.get("PORT", "8000"))
     print(f"Project discovery running at http://127.0.0.1:{port}")
     print("Gemma API key: configured" if os.environ.get("GEMINI_API_KEY") else "Gemma API key: missing (add it to .env to enable AI headings)")
-    ThreadingHTTPServer(("127.0.0.1", port), AppHandler).serve_forever()
+    host = os.environ.get("HOST", "0.0.0.0")
+    ThreadingHTTPServer((host, port), AppHandler).serve_forever()
